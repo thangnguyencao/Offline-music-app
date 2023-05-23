@@ -1,0 +1,11 @@
+D:\CS511 C# Language\music\bin\Debug\music.exe.config
+D:\CS511 C# Language\music\bin\Debug\music.exe
+D:\CS511 C# Language\music\bin\Debug\music.pdb
+D:\CS511 C# Language\music\obj\Debug\music.csproj.AssemblyReference.cache
+D:\CS511 C# Language\music\obj\Debug\music.csproj.SuggestedBindingRedirects.cache
+D:\CS511 C# Language\music\obj\Debug\music.Form1.resources
+D:\CS511 C# Language\music\obj\Debug\music.Properties.Resources.resources
+D:\CS511 C# Language\music\obj\Debug\music.csproj.GenerateResource.cache
+D:\CS511 C# Language\music\obj\Debug\music.csproj.CoreCompileInputs.cache
+D:\CS511 C# Language\music\obj\Debug\music.exe
+D:\CS511 C# Language\music\obj\Debug\music.pdb

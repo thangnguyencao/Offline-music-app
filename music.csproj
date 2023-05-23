@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3AB6D082-FEB1-48B4-8F8F-CC050B8C0A4E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>music</RootNamespace>
+    <AssemblyName>music</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\vn\#ACA.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\vn\AKTGDAL.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\vn\BT.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\vn\CCTX.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\vn\KSD.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\vn\LYS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\vn\NGTT.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\vn\SGBQEO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\vn\TLC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\vn\TT.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\eng\Comethru.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\eng\Counting_Stars.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\eng\Deathbed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\eng\Head_In_The_Cloud.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\eng\Heat_Waves.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\eng\Paris_In_The_Rain.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\eng\Rude.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\eng\Stressed_Out.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\eng\The_Lazy_Song.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\eng\When_I_Grow_Up.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\edm\Bullet_Waiting_For_Me.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\edm\Heads_Will_Roll.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\edm\If_Only_I_Could.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\edm\Journey.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\edm\Leyla.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\edm\Roses.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\edm\Silence.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\edm\Waiting_For_Love.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\edm\When_The_Suns_Gone.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\edm\Where_Are_You_Now.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="musicdemo\vn\VN cam - không sao đâu.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="musicdemo\vn\VN Dế Choắt - Sài Gòn buồn quá em ơi.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="musicdemo\vn\VN Đen - Trốn Tìm.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="musicdemo\vn\VN FloD -  #AiChoAi.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="musicdemo\vn\VN Kimmese - Loving You Sunny.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="musicdemo\vn\VN MCK - Chuyện chàng trông xe.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="musicdemo\vn\VN PHÚC DU - ANH KHÔNG THỀ GÌ ĐÂU ANH LÀM.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="musicdemo\vn\VN Rhymastic - Trên Lầu Cao.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="musicdemo\vn\VN Sol7 - Nhập Gia Tuỳ Tục.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="musicdemo\vn\VN Táo - Blue Tequila.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="musicdemo\eng\ENG Bruno Mars - The Lazy Song.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="musicdemo\eng\ENG Glass Animals - Heat Waves.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="musicdemo\eng\ENG Hayd - Head In The Clouds.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="musicdemo\eng\ENG Jeremy Zucker - comethru.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="musicdemo\eng\ENG Lauv - Paris in the Rain.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="musicdemo\eng\ENG MAGIC - Rude.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="musicdemo\eng\ENG NF - When I Grow Up.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="musicdemo\eng\ENG OneRepublic - Counting Stars.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="musicdemo\eng\ENG Powfu - death bed.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="musicdemo\eng\ENG twenty one pilots - Stressed Out.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="musicdemo\edm\EDM Amfree &amp; Ampris - Heads Will Roll.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="musicdemo\edm\EDM Avicii - Waiting For Love.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="musicdemo\edm\EDM Brooks - If Only I Could.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="musicdemo\edm\EDM Don Diablo - Journey.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="musicdemo\edm\EDM Lost Frequencies - Where Are You Now.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="musicdemo\edm\EDM Marshmello - Silence.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="musicdemo\edm\EDM Mesto - Leyla.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="musicdemo\edm\EDM Mike Williams - When The Sun Is Gone.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="musicdemo\edm\EDM Nikki Simmons - Bullet Waiting For Me.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="musicdemo\edm\EDM The Chainsmokers - Roses.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\vn\ACA.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\211871_pause_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\211876_play_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\heart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicData\unheart.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
